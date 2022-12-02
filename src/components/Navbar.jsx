@@ -13,10 +13,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className='flex items-center text-[#54656f] w-[190px] justify-between'>
-          <HiUserGroup className='text-[24px]'/>
-          <TbCircleDashed className='text-[24px]'/>
-          <BsFillChatLeftTextFill className='text-[24px]'/>
-          <IoMdMore className='text-[24px]'/>
+          <HiUserGroup className='text-[24px] cursor-pointer'/>
+          <TbCircleDashed className='text-[24px] cursor-pointer'/>
+          <BsFillChatLeftTextFill className='text-[24px] cursor-pointer'/>
+          <IoMdMore className='text-[24px] cursor-pointer'/>
       </div>
     </div>
   )
