@@ -1,4 +1,8 @@
 import React from 'react'
+import {HiUserGroup} from "react-icons/hi";
+import {BsFillChatLeftTextFill} from "react-icons/bs";
+import {TbCircleDashed} from "react-icons/tb";
+import {IoMdMore} from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -8,8 +12,11 @@ const Navbar = () => {
 
         </div>
       </div>
-      <div>
-        
+      <div className='flex items-center text-[#54656f] w-[190px] justify-between'>
+          <HiUserGroup className='text-[24px]'/>
+          <TbCircleDashed className='text-[24px]'/>
+          <BsFillChatLeftTextFill className='text-[24px]'/>
+          <IoMdMore className='text-[24px]'/>
       </div>
     </div>
   )
