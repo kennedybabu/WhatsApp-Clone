@@ -20,7 +20,7 @@ const Chat = () => {
             <IoMdMore />
         </div>
       </div>
-      <div className='h-[570px] py-2 chats'>
+      <div className='py-2 chats'>
         <Messages />
       </div>
       <Input />

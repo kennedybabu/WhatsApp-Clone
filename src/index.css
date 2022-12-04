@@ -20,7 +20,8 @@ body {
 
 
 .chats {
-    background-image: url(./images/wallpaper.png);    
+    background-image: url(./images/wallpaper.png);  
+    height: calc(100vh - 153px);  
 }
 
 
