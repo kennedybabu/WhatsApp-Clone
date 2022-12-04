@@ -8,8 +8,8 @@ const Landingpage = () => {
   return (
     <div className='w-full'>
         <Header />
-        <div className='pt-[56px] w-full bg-[#fff]'>
-                <div className='w-[788px] h-[573px] mx-auto flex justify-between'>
+        <div className='pt-[56px] w-full bg-[#fff] items-center flex flex-col'>
+                <div className='w-[788px] h-[573px] mx-auto flex justify-between roboto'>
                     <div className='w-[394px] h-full'>
                         <h3 className='text-[33px] font-bold pb-4 text-[#1c1e21]'>Simple.Secure.<br></br>Reliable messaging.</h3>
                         <p className='my-[18px] text-[18px] text-[#1c1e21]'>With WhatsApp, you'll get fast, simple, secure messaging and calling
@@ -26,6 +26,37 @@ const Landingpage = () => {
                         <img className="h-full" src="https://scontent.whatsapp.net/v/t39.8562-34/178505650_460141378430025_2455877548463147186_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=WXfqn59KRBIAX_kZWpf&_nc_ht=scontent.whatsapp.net&oh=01_AdRRMt_gOy4pUu8x0T5DP1oRU83cii0rUn2kJnkkJ_2jvg&oe=63917E4C" alt="/" />
                     </div>
                 </div>
+
+                <div className='w-[1440px] mx-auto h-[898px] flex mt-[56px] justify-between'>
+                    <div className='relative h-full w-[704px] text-center bg-[#D8E8EA] pt-[80px]'>
+                        <h2 className='text-[34px] font-bold pb-4'>WhatsApp Business App</h2>
+                        <p className='w-[563px] my-[18px] mx-auto text-[18px] text-[#1c1e21]'><span className='text-[#39b3ed]'>WhatsApp Business</span> is a free to download app that was built with
+                         the small business owner in mind. Create a catalog to showcase your products
+                          and services. Connect with your customers easily by using tools to automate,
+                           sort and quickly respond to messages.
+                        </p>
+                        <p className='w-[563px] my-[18px] mx-auto text-[18px] text-[#1c1e21]'>WhatsApp can also help medium and large businesses provide customer support
+                             and deliver important notifications to customers. Learn more about <span className='text-[#39b3ed]'>WhatsApp Business API.</span>
+                        </p>
+                        <div className='absolute bottom-0 w-[380px] h-[415px] mx-auto right-0 left-0'>
+                            <img className='w-full' src="https://scontent.whatsapp.net/v/t39.8562-34/191731900_491358315413361_6968938602217354245_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=GJ6L3JwkD7oAX_MRPmW&_nc_ht=scontent.whatsapp.net&oh=01_AdTkwqoUnUCIzzHw6QeDhXgmGKaVa_MTaLPG-XtrIn4F5w&oe=63915BB0" alt="/" />
+                        </div>
+                    </div>
+                    <div className='relative h-full w-[704px] text-center bg-[#dcf8c6d0] pt-[80px]'>
+                        <div className='w-[350px] h-[350px] bg-[#77d7c8] rounded-full mx-auto'>
+
+                        </div>
+                        <h4 className='uppercase text-[16px] text-[#5e5e5e] roboto mt-[56px]'>End-to-end Encryption</h4>
+                        <h2 className='text-[34px] font-bold text-[#1c1e21]'>Security by Default</h2>
+                        <p className='w-[563px] my-[18px] mx-auto text-[18px] text-[#1c1e21]'>Some of your most personal moments are shared on WhatsApp, 
+                            which is why we built end-to-end encryption into the latest
+                            versions of our app. When end-to-end encrypted, your messages
+                            and calls are secured so only you and the person you're communicating with can
+                            read or listen to them, and nobody in between, not even WhatsApp.
+                        </p>
+                    </div>
+                </div>
+                <button className='uppercase ft-btn mt-[56px] mb-[88px] mx-auto px-[32px] py-[16px] border rounded-[40px]'>explore features</button>
             </div>
     </div>
   )
