@@ -4,7 +4,7 @@ import {MdChevronRight} from "react-icons/md"
 
 const Footer = () => {
   return (
-    <div className='w-full h-[341px] bg-[#273443]'>
+    <div className='w-full h-[341px] bg-[#273443] absolute bottom-0'>
         <div className='w-[1050px] mx-auto flex justify-between text-[#f0f4f9] px-[20px] py-[56px]'>
             <div className='flex flex-col basis-1'>
                 <h2 className='pb-[32px] text-[16px] uppercase font-bold'>Whatsapp</h2>

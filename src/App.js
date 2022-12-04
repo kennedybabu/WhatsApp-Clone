@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Register from "./pages/Register"
 import Login from "./pages/Login"
 import Landingpage from "./pages/Landingpage"
+import Features from "./pages/Features"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/register' exact element={<Register />} />
           <Route path='/login' exact element={<Login />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/features" element={<Features />} />
         </Routes>
       </BrowserRouter>     
     </div>

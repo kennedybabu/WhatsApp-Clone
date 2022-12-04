@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import {AiFillAndroid, AiFillApple} from "react-icons/ai"
 import {MdDesktopMac, MdChevronRight} from "react-icons/md"
+import {HiLockClosed} from "react-icons/hi"
 import Footer from '../components/Footer'
 
 const Landingpage = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full relative'>
         <Header />
-        <div className='pt-[156px] w-full bg-[#fff] items-center flex flex-col'>
+        <div className='pt-[156px] w-full bg-[#fff] items-center flex flex-col pb-[350px]'>
                 <div className='w-[788px] h-[573px] mx-auto flex justify-between roboto'>
                     <div className='w-[394px] h-full'>
                         <h3 className='text-[33px] font-bold pb-4 text-[#1c1e21]'>Simple.Secure.<br></br>Reliable messaging.</h3>
@@ -45,7 +46,7 @@ const Landingpage = () => {
                     </div>
                     <div className='relative h-full w-[704px] text-center bg-[#dcf8c6d0] pt-[80px]'>
                         <div className='w-[350px] h-[350px] bg-[#77d7c8] rounded-full mx-auto flex items-center justify-center'>
-                            <p className='bg-white px-[16px] py-[8px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px]'>hello!</p>
+                            <p className='bg-white px-[16px] py-[8px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px] flex items-center'>hello!<HiLockClosed className='ml-1'/></p>
                         </div>
                         <h4 className='uppercase text-[16px] text-[#5e5e5e] roboto mt-[56px]'>End-to-end Encryption</h4>
                         <h2 className='text-[34px] font-bold text-[#1c1e21]'>Security by Default</h2>
