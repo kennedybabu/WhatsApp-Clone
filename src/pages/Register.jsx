@@ -2,7 +2,9 @@ import React from 'react'
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <div className='w-full h-full bg-white'>
+        register page
+    </div>
   )
 }
 
