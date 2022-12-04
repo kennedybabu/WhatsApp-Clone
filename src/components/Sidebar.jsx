@@ -7,7 +7,7 @@ import {BiArchiveIn} from "react-icons/bi";
 
 const Sidebar = () => {
   return (
-    <div className='sidebar basis-1/3  overflow-x-hidden'>
+    <div className='sidebar w-[567px] overflow-x-hidden bg-[#ffffff]'>
       <Navbar />
       <Search />
       <div className='w-full h-[49px] flex items-center cursor-pointer'>

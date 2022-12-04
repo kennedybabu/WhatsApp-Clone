@@ -7,9 +7,9 @@ import Messages from './Messages';
 
 const Chat = () => {
   return (
-    <div className='basis-2/3 relative'>
+    <div className='w-full relative'>
       <div className='w-full bg-[#f0f2f5] h-[59px] flex justify-between py-[10px] px-[16px]'>
-        <div className='h-full flex items-center'>
+        <div className='h-full flex items-center cursor-pointer'>
             <div className='h-[40px] w-[40px] rounded-full bg-red-400'>
 
             </div>
@@ -20,7 +20,7 @@ const Chat = () => {
             <IoMdMore />
         </div>
       </div>
-      <div className='bg-red-300 h-[570px] py-2 chats'>
+      <div className='h-[570px] py-2 chats'>
         <Messages />
       </div>
       <Input />

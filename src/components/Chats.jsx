@@ -9,8 +9,8 @@ const Chats = () => {
      <div className='w-full h-[530px]'>
       {value.map((chat,index) => {
         return (
-        <div key={index} className='chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
-            <div className='w-[49px] h-[49px] bg-red-300 rounded-full'>
+        <div key={index} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
+            <div className='w-[49px] h-[49px] bg-red-300 rounded-full px-6'>
 
             </div>
             <div className='w-full h-full flex flex-col items-center justify-center border-bottom ml-[15px]'>

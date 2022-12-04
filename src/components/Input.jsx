@@ -17,9 +17,9 @@ const Input = () => {
           <input type="file" name='file' className='hidden' />
         </div>
 
-        <input className='w-full px-[10px] py-[9px] rounded-[8px] h-[42px]' type="text" placeholder='Type a message' />
+        <input className='w-full px-[10px] py-[9px] rounded-[8px] h-[42px] outline-none border-none' type="text" placeholder='Type a message' />
 
-        <AiFillAudio className='text-[24px] mx-[5px]'/>
+        <AiFillAudio className='text-[24px] mx-[10px] cursor-pointer'/>
       </form>
     </div>
   )

@@ -14,12 +14,37 @@ body {
 }
 
 
-.message {
-    max-width: max-content;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 100% 100%, 75% 100%, 11% 100%, 10% 12%);
+.sidebar {
+    overflow-x: visible;
 }
 
 
 .chats {
     background-image: url(./images/wallpaper.png);    
 }
+
+
+.owner {
+    flex-direction: row-reverse;  
+}
+
+
+.owner .txt {
+    background-color: #d9fdd3;
+    color: white;   
+}
+
+
+/* .message p {
+    max-width: max-content;
+} */
+
+
+/* .owner .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+} */
+
+

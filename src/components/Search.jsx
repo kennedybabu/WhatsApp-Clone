@@ -9,7 +9,7 @@ const Search = () => {
       <div className='flex h-full items-center justify-between'>
         <div  className="bg-[#f0f2f5] rounded-[8px] h-[35px] flex items-center pr-[32px] w-[412px]">
           <AiOutlineSearch className='ml-4'/>
-          <input  className="bg-[#f0f2f5] ml-[65px]" type="text" placeholder='search or start new chat' />
+          <input  className="bg-[#f0f2f5] ml-[65px] outline-none border-none" type="text" placeholder='search or start new chat' />
         </div>
         <BsFilter className='text-[20px] mr-2'/>
       </div>
