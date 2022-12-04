@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import {AiFillAndroid, AiFillApple} from "react-icons/ai"
 import {MdDesktopMac, MdChevronRight} from "react-icons/md"
+import Footer from '../components/Footer'
 
 const Landingpage = () => {
   return (
     <div className='w-full'>
         <Header />
-        <div className='pt-[56px] w-full bg-[#fff] items-center flex flex-col'>
+        <div className='pt-[156px] w-full bg-[#fff] items-center flex flex-col'>
                 <div className='w-[788px] h-[573px] mx-auto flex justify-between roboto'>
                     <div className='w-[394px] h-full'>
                         <h3 className='text-[33px] font-bold pb-4 text-[#1c1e21]'>Simple.Secure.<br></br>Reliable messaging.</h3>
@@ -17,9 +18,9 @@ const Landingpage = () => {
                         </p>
                         <small className='text-[16px] text-[#5e5e5e]'>*Data charges may apply. Contact your provider details.</small>
                         <div className='mt-[32px]'>
-                            <Link className='flex items-center text-[#1cb39b] text-[18px]'><AiFillAndroid className='mr-4'/> Android <MdChevronRight className='ml-2'/></Link>
-                            <Link className='flex items-center text-[#1cb39b] text-[18px]'><AiFillApple className='mr-4'/>iPhone <MdChevronRight className='ml-2'/></Link>
-                            <Link className='flex items-center text-[#1cb39b] text-[18px]'><MdDesktopMac className='mr-4'/>Mac or Windows PC <MdChevronRight className='ml-2'/></Link>
+                            <Link className='flex items-center text-[#1cb39b] text-[18px] group pb-[16px]'><AiFillAndroid className='mr-4'/><span className='group-hover:underline'>Android</span><MdChevronRight className='ml-2'/></Link>
+                            <Link className='flex items-center text-[#1cb39b] text-[18px] group pb-[16px]'><AiFillApple className='mr-4'/><span className='group-hover:underline'>iPhone</span><MdChevronRight className='ml-2'/></Link>
+                            <Link className='flex items-center text-[#1cb39b] text-[18px] group pb-[16px]'><MdDesktopMac className='mr-4'/><span className='group-hover:underline'>Mac or Windows PC </span><MdChevronRight className='ml-2'/></Link>
                         </div>
                     </div>
                     <div className='h-full w-[328px]'>
@@ -43,8 +44,8 @@ const Landingpage = () => {
                         </div>
                     </div>
                     <div className='relative h-full w-[704px] text-center bg-[#dcf8c6d0] pt-[80px]'>
-                        <div className='w-[350px] h-[350px] bg-[#77d7c8] rounded-full mx-auto'>
-
+                        <div className='w-[350px] h-[350px] bg-[#77d7c8] rounded-full mx-auto flex items-center justify-center'>
+                            <p className='bg-white px-[16px] py-[8px] rounded-tr-[10px] rounded-br-[10px] rounded-bl-[10px]'>hello!</p>
                         </div>
                         <h4 className='uppercase text-[16px] text-[#5e5e5e] roboto mt-[56px]'>End-to-end Encryption</h4>
                         <h2 className='text-[34px] font-bold text-[#1c1e21]'>Security by Default</h2>
@@ -56,8 +57,9 @@ const Landingpage = () => {
                         </p>
                     </div>
                 </div>
-                <button className='uppercase ft-btn mt-[56px] mb-[88px] mx-auto px-[32px] py-[16px] border rounded-[40px]'>explore features</button>
+                <button className='uppercase ft-btn mt-[56px] mb-[88px] mx-auto px-[32px] py-[16px] border rounded-[40px] text-[#77d7c8]'>explore features</button>
             </div>
+            <Footer />
     </div>
   )
 }

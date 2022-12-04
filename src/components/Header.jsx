@@ -6,7 +6,7 @@ import {AiOutlineCaretDown} from "react-icons/ai"
 
 const Header = () => {
   return (
-    <div className='w-full h-[91px] bg-[#128c7e]'>
+    <div className='w-full h-[91px] bg-[#128c7e] fixed top-0 z-20'>
         <div className='max-w-[1050px] h-full mx-auto flex items-center justify-between'>
             <div className='h-full flex items-center'>
                 <img className='w-[35px] mr-2' src={Png} alt="logo" />
