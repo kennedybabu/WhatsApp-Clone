@@ -12,7 +12,7 @@ const Input = () => {
           <input type="text" name='emoji'className='hidden' />
         </div>
 
-        <div className='h-full flex items-center w-[26px]'>
+        <div className='h-full flex items-center w-[26px] mx-4'>
           <label htmlFor="file"><MdAttachFile className='text-[24px] cursor-pointer' /></label>
           <input type="file" name='file' className='hidden' />
         </div>

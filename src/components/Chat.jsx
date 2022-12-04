@@ -2,6 +2,7 @@ import React from 'react'
 import Input from "../components/Input"
 import {AiOutlineSearch} from "react-icons/ai";
 import {IoMdMore} from "react-icons/io";
+import Messages from './Messages';
 
 
 const Chat = () => {
@@ -19,8 +20,8 @@ const Chat = () => {
             <IoMdMore />
         </div>
       </div>
-      <div className='bg-green-100 h-[500px]'>
-        chats
+      <div className='bg-red-300 h-[570px] py-2 chats'>
+        <Messages />
       </div>
       <Input />
     </div>

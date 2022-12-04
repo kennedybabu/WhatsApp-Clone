@@ -12,3 +12,14 @@ body {
 .border-bottom {
     border-bottom: 1px solid #57565624;
 }
+
+
+.message {
+    max-width: max-content;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 10%, 100% 100%, 75% 100%, 11% 100%, 10% 12%);
+}
+
+
+.chats {
+    background-image: url(./images/wallpaper.png);    
+}
