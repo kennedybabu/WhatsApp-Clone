@@ -5,8 +5,16 @@ import {AiFillAndroid, AiFillApple} from "react-icons/ai"
 import {MdDesktopMac, MdChevronRight} from "react-icons/md"
 import {HiLockClosed} from "react-icons/hi"
 import Footer from '../components/Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Landingpage = () => {
+    const navigate = useNavigate()
+
+    const handleClick = () => {
+        console.log('clicked')
+        navigate('/features')
+    }
+
   return (
     <div className='w-full relative'>
         <Header />
@@ -58,7 +66,7 @@ const Landingpage = () => {
                         </p>
                     </div>
                 </div>
-                <button className='uppercase ft-btn mt-[56px] mb-[88px] mx-auto px-[32px] py-[16px] border rounded-[40px] text-[#77d7c8]'>explore features</button>
+                <Link to="/features" className='uppercase ft-btn mt-[56px] mb-[88px] mx-auto px-[32px] py-[16px] border rounded-[40px] text-[#77d7c8]'>explore features</Link>
             </div>
             <Footer />
     </div>

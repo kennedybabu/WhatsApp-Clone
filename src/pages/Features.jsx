@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <div className='w-full h-full relative'>
         <Header />
-        <div className='w-full bg-[#fff] h-full  pb-[350px]'>
+        <div className='w-full bg-[#fff] h-full pb-[350px]'>
           <div className='w-[1440px] mx-auto h-full flex pt-[90px] justify-between'>
             <div className='w-[704px]'>
                 <div className='w-full h-[1152px] pt-[86px] bg-[#fcf2c6] flex flex-col text-center'>
