@@ -14,7 +14,7 @@ const Header = () => {
             </Link>
             <div className='text-white font-[16px] flex justify-between uppercase w-[783px]'>
                 <Link className='mx-2 cursor-pointer' to="/home">Whatsapp Web</Link>
-                <Link className='mx-2 cursor-pointer' to='features'>Features</Link>
+                <Link className='mx-2 cursor-pointer' to='/features'>Features</Link>
                 <Link className='mx-2 cursor-pointer'>Download</Link>
                 <Link className='mx-2 cursor-pointer'>Privacy</Link>
                 <Link className='mx-2 cursor-pointer'>Help Center</Link>
