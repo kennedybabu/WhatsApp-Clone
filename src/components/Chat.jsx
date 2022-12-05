@@ -3,6 +3,8 @@ import Input from "../components/Input"
 import {AiOutlineSearch} from "react-icons/ai";
 import {IoMdMore} from "react-icons/io";
 import Messages from './Messages';
+import { signOut } from 'firebase/auth';
+import { auth } from '../Firebase';
 
 
 const Chat = () => {
@@ -18,6 +20,7 @@ const Chat = () => {
         <div className='h-full flex items-center text-[24px]'>
             <AiOutlineSearch className='mr-[16px]'/>
             <IoMdMore />
+            <p onClick={() => signOut(auth)} className="cursor-pointer text-sm">logout</p>
         </div>
       </div>
       <div className='py-2 chats'>

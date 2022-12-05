@@ -7,10 +7,12 @@ import { auth, storage, db } from "../Firebase"
 import {  createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import {  ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
+import { useNavigate } from 'react-router-dom'
 
 
 const Register = () => {
   const [error, setError] = useState('')
+  const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
     console.log('clicked')
@@ -46,7 +48,13 @@ const Register = () => {
               displayName,
               email,
               photoURL:downloadURL,
-            })            
+            })        
+            
+            await setDoc(doc(db, "userChats", response.user.uid), {
+
+            })
+
+            navigate('/home')
           });          
         }
       );
