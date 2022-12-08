@@ -7,7 +7,6 @@ import { AuthContext } from '../context/AuthContext';
 
 
 const Chats = () => {
-  const value = [1,2,3,4,5,6,7,8,9,10]
   const [chats, setChats] = useState([])
 
   const {currentUser} = useContext(AuthContext)
@@ -30,8 +29,8 @@ const Chats = () => {
   <div className='w-full h-[530px]'>
       {Object.entries(chats)?.map(chat => (
          <div key={chat[0]} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
-          <div className='w-[49px] h-[49px] rounded-full px-6'>
-              <img src={chat[1].userInfo.photoURL} alt="/" className='w-full h-full'/>
+          <div className='w-[49px] h-[49px] rounded-full'>
+              <img src={chat[1].userInfo.photoURL} alt="/" className='w-full h-full rounded-full'/>
           </div>
           <div className='w-full h-full flex flex-col items-center justify-center border-bottom ml-[15px]'>
             <div className='w-full flex items-center justify-between'>

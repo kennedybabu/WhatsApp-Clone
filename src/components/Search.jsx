@@ -89,8 +89,8 @@ const Search = () => {
       {/* render searched user */}
      { user && 
       <div onClick={handleSelect} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
-            <div className='w-[49px] h-[49px] rounded-full px-6'>
-                <img src={user.photoURL} alt="/" />
+            <div className='w-[49px] h-[49px] rounded-full'>
+                <img src={user.photoURL} alt="/" className='w-full h-full rounded-full' />
             </div>
             <div className='w-full h-full flex flex-col items-center justify-center border-bottom ml-[15px]'>
                 <div className='w-full flex items-center justify-between'>
