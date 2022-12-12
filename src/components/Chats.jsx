@@ -4,12 +4,15 @@ import {BiCheckDouble} from "react-icons/bi";
 import { doc, onSnapshot } from 'firebase/firestore';
 import { db } from '../Firebase';
 import { AuthContext } from '../context/AuthContext';
+import { ChatContext } from '../context/ChatContext';
+
 
 
 const Chats = () => {
   const [chats, setChats] = useState([])
 
   const {currentUser} = useContext(AuthContext)
+  const {dispatch} = useContext(ChatContext)
 
 
   useEffect(() => {
@@ -24,15 +27,19 @@ const Chats = () => {
     currentUser.uid && getChats()  
   }, [currentUser.uid])
 
+  const handleSelect = (user) => {
+    dispatch({type: "CHANGE_USER", payload: user})
+  }
+
 
   return (    
   <div className='w-full h-[530px]'>
       {Object.entries(chats)?.map(chat => (
-         <div key={chat[0]} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
+         <div onClick={() => handleSelect(chat[1].userInfo)} key={chat[0]} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
           <div className='w-[49px] h-[49px] rounded-full'>
               <img src={chat[1].userInfo.photoURL} alt="/" className='w-full h-full rounded-full'/>
           </div>
-          <div className='w-full h-full flex flex-col items-center justify-center border-bottom ml-[15px]'>
+          <div className='w-full h-full flex flex-col items-center justify-center border-bottom ml-[10px]'>
             <div className='w-full flex items-center justify-between'>
               <p className='text-[#111b21] font-[17px]'>{chat[1].userInfo.displayName}</p>
               <small className='font-[12px] text-[#667781]'>9:02pm</small>
