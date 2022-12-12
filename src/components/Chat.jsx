@@ -6,6 +6,7 @@ import Messages from './Messages';
 import { signOut } from 'firebase/auth';
 import { auth } from '../Firebase';
 import { ChatContext } from '../context/ChatContext';
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
 
 
 const Chat = () => {

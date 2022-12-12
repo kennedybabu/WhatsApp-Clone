@@ -26,22 +26,29 @@ body {
 .chats {
     background-image: url(./images/wallpaper.png);  
     height: calc(100vh - 153px);  
+    overflow-y: scroll;
 }
 
 
 .owner {
-    flex-direction: row-reverse;  
+    flex-direction: row-reverse;    
 }
 
 
 .owner .txt {
     background-color: #d9fdd3;
     color: white;   
+    border-radius: 8px 0 8px 8px;
 }
 
 
 .ft-btn {
     border: 2px solid #77d7c8;
+}
+
+
+.scrollbar-hidden::-webkit-scrollbar{
+    display: none;
 }
 
 

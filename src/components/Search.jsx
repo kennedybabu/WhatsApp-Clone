@@ -9,8 +9,6 @@ import { collection, query, where, getDocs, getDoc, setDoc, doc, updateDoc, serv
 import { AuthContext } from '../context/AuthContext';
 
 
-
-
 const Search = () => {
   const [username, setUsername] = useState('')
   const [user, setUser] = useState(null)
@@ -70,10 +68,7 @@ const Search = () => {
     }
     setUser(null)
     setUser('')
-  }
-
-
- 
+  } 
 
   return (
     <div className='w-full  border-bottom'>
@@ -82,7 +77,7 @@ const Search = () => {
           <AiOutlineSearch className='ml-4'/>
           <input value={username} onChange={(e) => setUsername(e.target.value)} onKeyDown={handleKey} className="bg-[#f0f2f5] ml-[65px] outline-none border-none" type="text" placeholder='search or start new chat' />
         </div>
-        <BsFilter className='text-[20px] mr-2'/>
+        <BsFilter className='text-[20px] mx-2'/>
       </div>
 
 

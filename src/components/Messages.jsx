@@ -19,7 +19,7 @@ const Messages = () => {
   },[data.chatId])
 
   return (
-    <div className='overflow-y-scroll px-[97px]'>
+    <div className='overflow-y-scroll px-[97px] scrollbar-hidden'>
       {messages.map(m => (
         <Message message={m} key={m.id} />
       ))}        
