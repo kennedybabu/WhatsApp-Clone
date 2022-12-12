@@ -15,9 +15,10 @@ const Chat = () => {
     <div className='w-full relative'>
       <div className='w-full bg-[#f0f2f5] h-[59px] flex justify-between py-[10px] px-[16px]'>
         <div className='h-full flex items-center cursor-pointer'>
-            <div className='h-[40px] w-[40px] rounded-full bg-red-400'>
-
-            </div>
+          {data.user?.photoURL &&
+            <div className='h-[40px] w-[40px] rounded-full'>
+                <img src={data.user?.photoURL} alt="/" className='w-full h-full rounded-full' />
+            </div>}
             <p className='text-[#111b21] font-[16px] ml-[15px]'>{data.user?.displayName}</p>
         </div>
         <div className='h-full flex items-center text-[24px]'>

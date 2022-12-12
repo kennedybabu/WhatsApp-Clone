@@ -45,7 +45,7 @@ const Chats = () => {
               <small className='font-[12px] text-[#667781]'>9:02pm</small>
             </div>
             <div className='w-full relative text-[#667781]'>
-                <p className='font-[14px] flex items-center'><BiCheckDouble className='mr-1'/>{chat[1].userInfo.lastMessage?.text}</p>
+                <p className='font-[14px] flex items-center'><BiCheckDouble className='mr-1'/>{chat[1].lastMessage?.text}</p>
                 <FiChevronDown className='absolute top-0 right-0 font-bold hidden group-hover:block'/>
             </div>
           </div>

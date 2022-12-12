@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Message = () => {
+const Message = ({message}) => {
   return (
     <div className='flex w-full message'>
         <div className='txt bg-white message shadow-md border px-2 py-1 rounded-tr-[8px] rounded-br-[8px] rounded-bl-[8px] '>
