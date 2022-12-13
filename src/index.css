@@ -52,5 +52,16 @@ body {
 }
 
 
+.home-container {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+}
+
+
+.left-border {
+    border-left: 1px solid rgb(212, 212, 212);
+}
+
+
 
 

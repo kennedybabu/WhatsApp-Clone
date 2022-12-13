@@ -23,8 +23,8 @@ const Message = ({message}) => {
             </div>            
         </div>}
      {message.img &&
-        <div className='w-[277px] max-h-[300px] rounded-tr-[8px] rounded-br-[8px] rounded-bl-[8px]'>
-          <img src={message.img} alt="/" className='w-full h-full' />
+        <div className='w-[277px] max-h-[300px] rounded-tr-[8px] rounded-br-[8px] rounded-bl-[8px] bg-white rounded-[5px] p-2 shadow-md'>
+          <img src={message.img} alt="/" className='w-[98%] h-[99%] rounded-[5px] shadow-md mx-auto' />
         </div>
         }
     </div>

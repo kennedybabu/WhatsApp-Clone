@@ -31,9 +31,9 @@ const Chats = () => {
     dispatch({type: "CHANGE_USER", payload: user})
   }
 
-
+  
   return (    
-  <div className='w-full h-[530px]'>
+  <div className='w-full h-[530px] scrollbar-hidden'>
       {Object.entries(chats)?.sort((a,b) => b[1].date - a[1].date).map(chat => (
          <div onClick={() => handleSelect(chat[1].userInfo)} key={chat[0]} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
           <div className='w-[49px] h-[49px] rounded-full'>
@@ -45,7 +45,7 @@ const Chats = () => {
               <small className='font-[12px] text-[#667781]'>9:02pm</small>
             </div>
             <div className='w-full relative text-[#667781]'>
-                <p className='font-[14px] flex items-center'><BiCheckDouble className='mr-1'/>{chat[1].lastMessage?.text}</p>
+                <p className='font-[14px] flex items-center'><BiCheckDouble className={`mr-1`}/>{chat[1].lastMessage?.text}</p>
                 <FiChevronDown className='absolute top-0 right-0 font-bold hidden group-hover:block'/>
             </div>
           </div>

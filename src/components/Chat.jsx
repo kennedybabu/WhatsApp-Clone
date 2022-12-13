@@ -14,7 +14,7 @@ const Chat = () => {
 
   return (
     <div className='w-full relative'>
-      <div className='w-full bg-[#f0f2f5] h-[59px] flex justify-between py-[10px] px-[16px]'>
+      <div className='w-full bg-[#f0f2f5] h-[59px] flex justify-between py-[10px] px-[16px] left-border'>
         <div className='h-full flex items-center cursor-pointer'>
           {data.user?.photoURL &&
             <div className='h-[40px] w-[40px] rounded-full'>

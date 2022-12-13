@@ -89,7 +89,7 @@ const Input = () => {
         </div>
 
         <input value={text} className='w-full px-[10px] py-[9px] rounded-[8px] h-[42px] outline-none border-none' type="text" placeholder='Type a message' onChange={(e) => setText(e.target.value)}/>
-        <button type="submit" onClick={(e) => handleSend(e)}>s</button>
+        <button type="submit" onClick={(e) => handleSend(e)} className='hidden'>s</button>
 
         <AiFillAudio className='text-[24px] mx-[10px] cursor-pointer'/>
       </form>

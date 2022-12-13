@@ -20,7 +20,7 @@ const Sidebar = () => {
       </div>
 
       {/* chats */}
-      <div className='charts-window w-full overflow-y-scroll'>
+      <div className='charts-window w-full overflow-y-scroll scrollbar-hidden'>
         <Chats />
       </div>
     </div>
