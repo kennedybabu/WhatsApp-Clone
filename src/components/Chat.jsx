@@ -7,6 +7,7 @@ import { signOut } from 'firebase/auth';
 import { auth } from '../Firebase';
 import { ChatContext } from '../context/ChatContext';
 import {RemoveScrollBar} from 'react-remove-scroll-bar';
+import {IoIosLogOut} from "react-icons/io"
 
 
 const Chat = () => {
@@ -25,7 +26,7 @@ const Chat = () => {
         <div className='h-full flex items-center text-[24px]'>
             <AiOutlineSearch className='mr-[16px]'/>
             <IoMdMore />
-            <p onClick={() => signOut(auth)} className="cursor-pointer text-sm">logout</p>
+            <p onClick={() => signOut(auth)} className="cursor-pointer mx-2"><IoIosLogOut /></p>
         </div>
       </div>
       <div className='py-2 chats'>
