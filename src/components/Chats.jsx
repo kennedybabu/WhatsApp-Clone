@@ -46,7 +46,7 @@ const Chats = () => {
             </div>
             <div className='w-full relative text-[#667781]'>
                 <p className='font-[14px] flex items-center'><BiCheckDouble className={`mr-1`}/>{chat[1].lastMessage?.text}</p>
-                <FiChevronDown className='absolute top-0 right-0 font-bold hidden group-hover:block'/>
+                <FiChevronDown className='absolute top-0 right-0 font-bold hidden group-hover:block'/>               
             </div>
           </div>
        </div> 
