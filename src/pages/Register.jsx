@@ -19,8 +19,9 @@ const Register = () => {
     e.preventDefault()
     const displayName = e.target[0].value
     const email = e.target[1].value
-    const password = e.target[2].value
-    const file = e.target[3].files[0]
+    const about = e.target[2].value
+    const password = e.target[3].value
+    const file = e.target[4].files[0]
 
     try {
       const response = await createUserWithEmailAndPassword(auth, email, password)
@@ -47,6 +48,7 @@ const Register = () => {
               uid: response.user.uid,
               displayName,
               email,
+              about,
               photoURL:downloadURL,
             })        
             
@@ -75,6 +77,7 @@ const Register = () => {
               <form className='flex flex-col w-[400px] mx-auto' onSubmit={handleSubmit}>
                 <input className='my-4 border p-4' type="text" placeholder='display name' name='name'/>
                 <input className='my-4 p-4 border' type="email" name="email" id="email" placeholder='email' />
+                <textarea type="text"  name='about' id="about" placeholder='About'></textarea>
                 <input className='my-4 p-4' type="password" name="password" id="password" placeholder='password' />
 
                 <label className='flex items-center cursor-pointer text-[#1cb39b]' htmlFor="file"><IoMdImages className='text-4xl mr-2 cursor-pointer' /><small>Add an Avatar</small></label>

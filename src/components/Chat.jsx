@@ -24,8 +24,8 @@ const Chat = () => {
             <p className='text-[#111b21] font-[16px] ml-[15px]'>{data.user?.displayName}</p>
         </div>
         <div className='h-full flex items-center text-[24px]'>
-            <AiOutlineSearch className='mr-[16px]'/>
-            <IoMdMore />
+            <AiOutlineSearch className='mr-[16px] cursor-pointer'/>
+            <IoMdMore className='cursor-pointer' />
             <p onClick={() => signOut(auth)} className="cursor-pointer mx-2"><IoIosLogOut /></p>
         </div>
       </div>

@@ -14,13 +14,14 @@ const Message = ({message}) => {
   },[])
 
 
+
   return (
     <div ref={ref} className={`flex flex-col w-full message my-4 ${message.senderId === currentUser.uid && "owner"}`}>
        {message.text &&
         <div className='txt bg-white message shadow-md border px-2 py-1 h-max w-max rounded-tr-[8px] rounded-br-[8px] rounded-bl-[8px]'>
             <p className='font-[14px] text-[#111b21]'>{message.text}</p>
             <div className='w-full text-right'>
-                <p className='text-[#667781] text-[12px]'>{}</p>
+                <p className='text-[#667781] text-[10px]'>just now</p>
             </div>            
         </div>}
      {message.img &&
