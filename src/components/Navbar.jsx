@@ -11,7 +11,7 @@ const Navbar = ({handleShowProfile}) => {
   return (
     <div className='h-[59px] bg-[#f0f2f5] w-full flex items-center justify-between px-[16px] py-[10px]'>
       <div>
-        <div className='w-[40px] h-[40px] rounded-full' onClick={() => handleShowProfile()}>
+        <div className='w-[40px] h-[40px] rounded-full cursor-pointer' onClick={() => handleShowProfile()}>
           <img src={currentUser.photoURL} alt="/" className='w-full h-full rounded-full' />
         </div>        
         <h2>{currentUser.about}</h2>
