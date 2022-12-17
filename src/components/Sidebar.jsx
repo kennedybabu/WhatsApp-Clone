@@ -36,7 +36,7 @@ const Sidebar = () => {
       <div className={showProfile ? `absolute z-50 bg-[#f0f2f5] top-0 right-0  min-h-full min-w-full transition` :`absolute transition z-50 hidden top-0 right-[100%]  min-h-full min-w-full`}>
           
           <div className='w-full h-[107px] bg-[#008069] pt-0 pr-[20px] pb-0 pl-[23px] flex items-end'>
-              <div className='w-full flex h-[59px] items-center text-white'>
+              <div className='w-full flex h-[59px] items-center text-white font-bold'>
                 <BsArrowLeft onClick={() => handleShowProfile(false)} className='mr-4 cursor-pointer' /><p onClick={() => handleShowProfile(false)} className='cursor-pointer'>Profile</p>
               </div>             
           </div>

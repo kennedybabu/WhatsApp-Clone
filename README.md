@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# WhatsApp Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of the WhatsApp Web Application. A user can sign up for the application, 
+using their email, search for fellow users, send message or a file.
 
-## Available Scripts
+## Technologies used
+> React Js
+> Firebase for (Auth, backend and hosting)
+> Tailwind css framework
+> Framer Motion Library
 
 In the project directory, you can run:
 
