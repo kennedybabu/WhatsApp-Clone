@@ -13,16 +13,18 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+clone the repo from github to a local folder. 
+1. cd whatsapp/
+2. run `npm install` to install all the dependancies. 
+3. run `npm start` to run the application on local:host//3000 in your prefered web browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Stories
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. user can create an account in the application.
+2. user can search for other users signed up in the application.
+3. user can send either a message or a file to other users.
+4. user can receive a sent message or file
+5. user can view their profile
 
 ### `npm run build`
 
