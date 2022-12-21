@@ -32,9 +32,9 @@ const Landingpage = () => {
                             <Link className='flex items-center text-[#1cb39b] text-[18px] group pb-[16px]'><MdDesktopMac className='mr-4'/><span className='group-hover:underline'>Mac or Windows PC </span><MdChevronRight className='ml-2'/></Link>
                         </div>
                     </div>
-                    <div className='h-full w-[328px]'>
+                    {/* <div className='h-full w-[328px]'>
                         <img className="h-full" src="https://scontent.whatsapp.net/v/t39.8562-34/178505650_460141378430025_2455877548463147186_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=WXfqn59KRBIAX_kZWpf&_nc_ht=scontent.whatsapp.net&oh=01_AdRRMt_gOy4pUu8x0T5DP1oRU83cii0rUn2kJnkkJ_2jvg&oe=63917E4C" alt="/" />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='w-[1440px] mx-auto h-[898px] flex mt-[56px] justify-between'>
@@ -48,9 +48,9 @@ const Landingpage = () => {
                         <p className='w-[563px] my-[18px] mx-auto text-[18px] text-[#1c1e21]'>WhatsApp can also help medium and large businesses provide customer support
                              and deliver important notifications to customers. Learn more about <span className='text-[#39b3ed]'>WhatsApp Business API.</span>
                         </p>
-                        <div className='absolute bottom-0 w-[380px] h-[415px] mx-auto right-0 left-0'>
+                        {/* <div className='absolute bottom-0 w-[380px] h-[415px] mx-auto right-0 left-0'>
                             <img className='w-full' src="https://scontent.whatsapp.net/v/t39.8562-34/191731900_491358315413361_6968938602217354245_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=GJ6L3JwkD7oAX_MRPmW&_nc_ht=scontent.whatsapp.net&oh=01_AdTkwqoUnUCIzzHw6QeDhXgmGKaVa_MTaLPG-XtrIn4F5w&oe=63915BB0" alt="/" />
-                        </div>
+                        </div> */}
                     </div>
                     <div className='relative h-full w-[704px] text-center bg-[#dcf8c6d0] pt-[80px]'>
                         <div className='w-[350px] h-[350px] bg-[#77d7c8] rounded-full mx-auto flex items-center justify-center'>

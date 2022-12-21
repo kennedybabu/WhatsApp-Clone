@@ -17,9 +17,9 @@ const Features = () => {
                     <p className='text-[16px] text-[#5e5e5e] w-[480px] mx-auto my-4'>Message your friends and family for free*. 
                       WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees
                     </p>
-                    <div className='w-[382px] h-[720px] mx-auto mt-4'>
+                    {/* <div className='w-[382px] h-[720px] mx-auto mt-4'>
                         <img className='w-full h-full' src="https://scontent.whatsapp.net/v/t39.8562-34/187714031_1045351012664566_8001264446477762744_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=XytqEQn0I7MAX_c0HEC&_nc_ht=scontent.whatsapp.net&oh=01_AdQa_AwzdmY20RCu-yzLrnF2wLTiom2_oJ9nwg9Jke6JEw&oe=6391648F" alt="/" />
-                    </div>
+                    </div> */}
                     <small className='mt-[30px] text-[16px] text-[#5e5e5e]'>* Data charges may apply. Contact your provider for details.</small>
                 </div>
 
@@ -34,15 +34,15 @@ const Features = () => {
                       cell plan's voice minutes, so you don't have to worry about expensive calling charges.
                     </p>
                     <small className='mt-[30px] text-[16px] text-[#5e5e5e]'>* Data charges may apply. Contact your provider for details.</small>
-                    <div className='absolute bottom-0 right-0 left-0 w-[453px] h-[265px] mx-auto'>
+                    {/* <div className='absolute bottom-0 right-0 left-0 w-[453px] h-[265px] mx-auto'>
                         <img className='w-full h-full' src="https://scontent.whatsapp.net/v/t39.8562-34/185147482_157199459626985_7037521108409229340_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=01-1bn8LOpAAX_X76Ec&_nc_ht=scontent.whatsapp.net&oh=01_AdRWNVxNLuT14iNYCMZttQeiypCKbiRqLg54NWih0QlfUQ&oe=63918C66" alt="/" />
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='relative w-full h-[768px] bg-[#fcf2c6] mt-[24px] flex flex-col text-center'>
-                    <div className='w-[382px] h-[441px] top-0 right-0 left-0 mx-auto pb-[32px]'>
+                    {/* <div className='w-[382px] h-[441px] top-0 right-0 left-0 mx-auto pb-[32px]'>
                         <img className='w-full h-full' src="https://scontent.whatsapp.net/v/t39.8562-34/185414037_829557024605674_6973978005665666022_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=hbLEje-T9SMAX9-WbEv&_nc_ht=scontent.whatsapp.net&oh=01_AdS8QkB1ewHxG4LB7yNEyVTqRh8-cieyNosvqA859zbcVA&oe=6392BE6E" alt="/" />
-                    </div>
+                    </div> */}
                     <p className='text-[16px] text-[#5e5e5e] uppercase mb-[2px]'>photos and videos</p>
                     <h3 className='text-[28px] text-[#1c1e21] font-semibold'>Share Moments that Matter</h3>
                     <p className='text-[16px] text-[#5e5e5e] w-[480px] mx-auto my-4'>
@@ -60,9 +60,9 @@ const Features = () => {
                       hassle of email or file sharing apps. You can send documents up to 100 MB, 
                       so it's easy to get what you need over to who you want.
                     </p>
-                    <div className='absolute bottom-0 right-0 left-0 w-[383px] h-[317px] mx-auto'>
+                    {/* <div className='absolute bottom-0 right-0 left-0 w-[383px] h-[317px] mx-auto'>
                         <img className='w-full h-full' src="https://scontent.whatsapp.net/v/t39.8562-34/185279401_583460593038170_8035663609126382982_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=Fa9b0lBsGUMAX8N5JRg&_nc_ht=scontent.whatsapp.net&oh=01_AdT_MDZjjvR0J0txR5GjyUUwBwnxUnHc8SzvzaFSntn6_Q&oe=639121FF" alt="/" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='w-[704px]'>
@@ -74,22 +74,22 @@ const Features = () => {
                       you can share messages, photos, and videos with up to 256 people at once. You can also name your group,
                        mute or customize notifications, and more.
                   </p>
-                  <div className='w-[382px] h-[720px] mx-auto mt-4'>
+                  {/* <div className='w-[382px] h-[720px] mx-auto mt-4'>
                         <div className='flex w-full justify-end'>
                           <img className='w-[120px] h-[120px]' src="https://scontent.whatsapp.net/v/t39.8562-34/192421540_142194574611525_6595584605694964777_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=EiokzcDMWs8AX8EZqii&_nc_ht=scontent.whatsapp.net&oh=01_AdQsWBG259Ny8Lo5-taZX_mkp9-V3Z1w8y9FPluu41SVgQ&oe=6391436A" alt="/" />
                         </div>
                         <img className='w-[120px] h-[120px]' src="https://scontent.whatsapp.net/v/t39.8562-34/193389815_153710126736438_1869555250439072017_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=KujrQuA5uW4AX9ybYXP&_nc_ht=scontent.whatsapp.net&oh=01_AdTD9eEYWYvPKEBpzgRIEPGmZ0yTP5garVyKFbtb6q-A7g&oe=639206B8" alt="/" />
                         <img className='w-[120px] h-[120px]' src="https://scontent.whatsapp.net/v/t39.8562-34/192889030_1187016195095182_59941905074490852_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=o6sJxhjU3KAAX_QMJvw&_nc_ht=scontent.whatsapp.net&oh=01_AdR4ttlQ8L52YNEy6_GvNJb9lbBYIN4C3QSKmbNSpfQE0A&oe=63910DE7" alt="/" />
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className='w-full h-[620pxpx] pt-[86px] bg-[#F0F4F9] flex flex-col text-center mt-[24px] relative'>
                   <p className='text-[16px] text-[#5e5e5e] uppercase mb-[2px]'>WHATSAPP ON WEB AND DESKTOP</p>
                   <h3 className='text-[28px] text-[#1c1e21] font-semibold'>Keep the Conversation Going</h3>
                   <p className='text-[16px] text-[#5e5e5e] w-[480px] mx-auto my-4'>With WhatsApp on the web and desktop, you can seamlessly sync all of your chats to your computer so that you can chat on whatever device is most convenient for you. Download the desktop app or visit web.whatsapp.com to get started</p>
-                  <div className='w-full mt-[40px] h-[284px]'>
+                  {/* <div className='w-full mt-[40px] h-[284px]'>
                       <img className='absolute right-0 bottom-0 w-[382px] h-[284px]' src="https://scontent.whatsapp.net/v/t39.8562-34/189620053_906220896592723_7480002254396312514_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=6-qQk32OiwoAX-VaBK_&_nc_ht=scontent.whatsapp.net&oh=01_AdTR_qk9YR2AwnX0i8dqhoS7rm2WiBHHAL8v-8jqiFjWyA&oe=639154A7" alt="/" />
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className='relative h-[798px] w-[704px] text-center bg-[#dcf8c6d0] pt-[80px] mt-[24px]'>
@@ -107,9 +107,9 @@ const Features = () => {
                 </div>
 
                 <div className='relative w-full h-[583px] bg-[#d8e8ea] mt-[24px] flex flex-col text-center'>
-                    <div className='w-[382px] h-[304px] top-0 right-0 left-0 mx-auto pb-[32px]'>
+                    {/* <div className='w-[382px] h-[304px] top-0 right-0 left-0 mx-auto pb-[32px]'>
                         <img className='w-full h-full' src="https://scontent.whatsapp.net/v/t39.8562-34/189660652_297631595188463_4270236316996839237_n.png?ccb=1-7&_nc_sid=2fbf2a&_nc_ohc=QskeOU9VGyMAX9J5K1v&_nc_ht=scontent.whatsapp.net&oh=01_AdR-B9f3lfHh9cqA5Ef8FS3XC2zNfbmz6cBkQ7Nh0cKvOA&oe=6392B281" alt="/" />
-                    </div>
+                    </div> */}
                     <p className='text-[16px] text-[#5e5e5e] uppercase mb-[2px]'>voice messages</p>
                     <h3 className='text-[28px] text-[#1c1e21] font-semibold'>Say Whats On Your Mind</h3>
                     <p className='text-[16px] text-[#5e5e5e] w-[480px] mx-auto my-4'>
