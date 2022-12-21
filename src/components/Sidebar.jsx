@@ -6,11 +6,14 @@ import {BiArchiveIn} from "react-icons/bi";
 import {BsArrowLeft} from "react-icons/bs"
 import { AuthContext } from '../context/AuthContext';
 import {MdEdit} from "react-icons/md"
+import { motion } from 'framer-motion';
 
 
 const Sidebar = () => {
   const [showProfile, setShowProfile] = useState(false)
   const {currentUser} = useContext(AuthContext)
+
+  
 
   const handleShowProfile = () => {
     setShowProfile(!showProfile)
