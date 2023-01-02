@@ -4,10 +4,10 @@ This project is a clone of the WhatsApp Web Application. A user can sign up for 
 using their email, search for fellow users, send message or a file.
 
 ## Technologies used
-> React Js
-> Firebase for (Auth, backend and hosting)
-> Tailwind css framework
-> Framer Motion Library
+1. React Js
+2. Firebase for (Auth, backend and hosting)
+3. Tailwind css framework
+4. Framer Motion Library
 
 
 ### User Stories
