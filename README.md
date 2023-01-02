@@ -9,14 +9,6 @@ using their email, search for fellow users, send message or a file.
 > Tailwind css framework
 > Framer Motion Library
 
-In the project directory, you can run:
-
-### `npm start`
-
-clone the repo from github to a local folder. 
-1. cd whatsapp/
-2. run `npm install` to install all the dependancies. 
-3. run `npm start` to run the application on local:host//3000 in your prefered web browser.
 
 ### User Stories
 
@@ -25,6 +17,14 @@ clone the repo from github to a local folder.
 3. user can send either a message or a file to other users.
 4. user can receive a sent message or file
 5. user can view their profile
+
+### Users in the database
+Below are some of the users in the database one can search for
+and send messages to.
+1. simba
+2. tall_man
+3. Mwepu
+4. Karen 
 
 ### `npm run build`
 
