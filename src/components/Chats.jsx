@@ -34,7 +34,7 @@ const Chats = () => {
   
   return (    
   <div className='w-full h-[530px] scrollbar-hidden'>
-      {Object.entries(chats)?.sort((a,b) => b[1].date - a[1].date).map(chat => (
+      {chats && Object.entries(chats)?.sort((a,b) => b[1].date - a[1].date).map(chat => (
          <div onClick={() => handleSelect(chat[1].userInfo)} key={chat[0]} className='bg-[#ffffff] chat w-full group  h-[72px] flex items-center px-[14px] cursor-pointer hover:bg-[#f0eeec] transition'>
           <div className='w-[49px] h-[49px] rounded-full'>
               <img src={chat[1].userInfo.photoURL} alt="/" className='w-full h-full rounded-full'/>
